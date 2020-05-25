@@ -3,7 +3,7 @@
 # @Email  :1084928753@qq.com
 # @File :httpjiek.py
 '''封装发送所有http请求的类'''
-import requests,unittest,json,yaml,os,logging,ssl
+import requests,unittest,json,yaml,os,logging
 from requests1.gogofangfa.gonggo import rr_yaml
 from requests1.logginging.log import logger
 

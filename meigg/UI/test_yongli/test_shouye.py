@@ -3,10 +3,9 @@
 # @Email  :1084928753@qq.com
 # @File :test_shouye.py
 from ddt import  ddt,file_data,os,yaml
-from meigg.peizhiwenjbao.peizhi import dakai
-from selenium import webdriver
+from meigg.UI.peizhiwenjbao.peizhi import dakai
 import unittest
-from  selenium.webdriver.common.by import By
+
 path=os.path.abspath(os.path.dirname(__file__))#获取文件当前位置
 yamlpath1=path+'../yamlyaml\\url.yaml'#相对路径的yaml文件路径
 yamlpath=r'C:\Users\Administrator\PycharmProjects\lix\meigg\yamlyaml\url.yaml'

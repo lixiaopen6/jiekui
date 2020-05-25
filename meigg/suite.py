@@ -1,8 +1,8 @@
 import unittest,os
 from HTMLTestRunner_cn import HTMLTestRunner
 suite=unittest.TestSuite()
-report_name='小鹏的测试报告2020-3-5'
-report_title='小鹏的测试报告2020-3-5'
+report_name='小鹏的测试报告2020-5-5'
+report_title='小鹏的测试报告2020-5-5'
 report_desc='一灯老师要的，啥都有'
 report_path='./report/'   #保存路径
 report_file=report_path+'report3.html'  #保存文件名称

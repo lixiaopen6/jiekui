@@ -1,0 +1,117 @@
+{
+  "uid" : "b678dbe32211e803",
+  "name" : "test01",
+  "fullName" : "testcases.testorder.TestLogin#test01",
+  "historyId" : "14e2e1a16ccad0858ca2cc832d25ea30",
+  "time" : {
+    "start" : 1585099229734,
+    "stop" : 1585099229734,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "StopIteration: type object 'Login' has no attribute 'password11'",
+  "statusTrace" : "cls = <class '_pytest.runner.CallInfo'>\nfunc = <function call_runtest_hook.<locals>.<lambda> at 0x00000000045E3288>\nwhen = 'setup'\nreraise = (<class '_pytest.outcomes.Exit'>, <class 'KeyboardInterrupt'>)\n\n    @classmethod\n    def from_call(cls, func, when, reraise=None) -> \"CallInfo\":\n        #: context of invocation: one of \"setup\", \"call\",\n        #: \"teardown\", \"memocollect\"\n        start = time()\n        excinfo = None\n        try:\n>           result = func()\n\nC:\\Python37\\lib\\site-packages\\_pytest\\runner.py:244: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Python37\\lib\\site-packages\\_pytest\\runner.py:217: in <lambda>\n    lambda: ihook(item=item, **kwds), when=when, reraise=reraise\nC:\\Python37\\lib\\site-packages\\pluggy\\hooks.py:286: in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\nC:\\Python37\\lib\\site-packages\\pluggy\\manager.py:93: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\nC:\\Python37\\lib\\site-packages\\pluggy\\manager.py:87: in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\nC:\\Python37\\lib\\site-packages\\_pytest\\runner.py:123: in pytest_runtest_setup\n    item.session._setupstate.prepare(item)\nC:\\Python37\\lib\\site-packages\\_pytest\\runner.py:376: in prepare\n    raise e\nC:\\Python37\\lib\\site-packages\\_pytest\\runner.py:373: in prepare\n    col.setup()\nC:\\Python37\\lib\\site-packages\\_pytest\\python.py:1485: in setup\n    fixtures.fillfixtures(self)\nC:\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:297: in fillfixtures\n    request._fillfixtures()\nC:\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:477: in _fillfixtures\n    item.funcargs[argname] = self.getfixturevalue(argname)\nC:\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:487: in getfixturevalue\n    return self._get_active_fixturedef(argname).cached_result[0]\nC:\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:503: in _get_active_fixturedef\n    self._compute_fixture_value(fixturedef)\nC:\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:584: in _compute_fixture_value\n    fixturedef.execute(request=subrequest)\nC:\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:914: in execute\n    return hook.pytest_fixture_setup(fixturedef=self, request=request)\nC:\\Python37\\lib\\site-packages\\pluggy\\hooks.py:286: in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\nC:\\Python37\\lib\\site-packages\\pluggy\\manager.py:93: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\nC:\\Python37\\lib\\site-packages\\pluggy\\manager.py:87: in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\nC:\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:964: in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nfixturefunc = <function login at 0x0000000003A7D798>\nrequest = <SubRequest 'login' for <Function test01>>\nkwargs = {'browser': <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7a7f33fd38686b4b9a5c5a63cc04fc43\")>}\n\n    def call_fixture_func(fixturefunc, request, kwargs):\n        yieldctx = is_generator(fixturefunc)\n        if yieldctx:\n            it = fixturefunc(**kwargs)\n>           res = next(it)\nE           StopIteration: type object 'Login' has no attribute 'password11'\n\nC:\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:788: StopIteration",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1585099229735,
+      "stop" : 1585099235929,
+      "duration" : 6194
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1585099235929,
+      "stop" : 1585099236434,
+      "duration" : 505
+    },
+    "status" : "broken",
+    "statusMessage" : "StopIteration: type object 'Login' has no attribute 'password11'\n",
+    "statusTrace" : "  File \"C:\\Python37\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"C:\\Python37\\lib\\site-packages\\_pytest\\fixtures.py\", line 964, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"C:\\Python37\\lib\\site-packages\\_pytest\\fixtures.py\", line 788, in call_fixture_func\n    res = next(it)\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9e2c3f00a00f7e5e",
+      "name" : "denglu",
+      "source" : "9e2c3f00a00f7e5e.png",
+      "type" : "image/png",
+      "size" : 47867
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "testorder"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "PC-20170410AZFM"
+  }, {
+    "name" : "thread",
+    "value" : "8972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.testorder"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "768b52b269a3a39b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()='我的快递号']\"}\n  (Session info: chrome=79.0.3945.79)\n  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1585043735062,
+        "stop" : 1585043748070,
+        "duration" : 13008
+      }
+    }, {
+      "uid" : "8a168ac21e86b758",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585040882339,
+        "stop" : 1585040891435,
+        "duration" : 9096
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b678dbe32211e803.json",
+  "parameterValues" : [ ]
+}

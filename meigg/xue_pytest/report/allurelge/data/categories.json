@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "StopIteration: type object 'Login' has no attribute 'password11'",
+      "children" : [ {
+        "name" : "test01",
+        "uid" : "94782734af8fefc4",
+        "parentUid" : "d65d8c63bf42797c682a6e859167a801",
+        "status" : "broken",
+        "time" : {
+          "start" : 1585099210948,
+          "stop" : 1585099210948,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test01",
+        "uid" : "b678dbe32211e803",
+        "parentUid" : "d65d8c63bf42797c682a6e859167a801",
+        "status" : "broken",
+        "time" : {
+          "start" : 1585099229734,
+          "stop" : 1585099229734,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d65d8c63bf42797c682a6e859167a801"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

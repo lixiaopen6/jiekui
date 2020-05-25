@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed Mar 25 09:20:10 CST 2020","Wed Mar 25 09:20:10 CST 2020","0","testcases","testcase_login","TestLogin","","","test01",""
+"passed","Wed Mar 25 09:20:27 CST 2020","Wed Mar 25 09:20:29 CST 2020","2599","testcases","testorder","TestLogin","","","test00",""
+"broken","Wed Mar 25 09:20:29 CST 2020","Wed Mar 25 09:20:29 CST 2020","0","testcases","testorder","TestLogin","","","test01",""

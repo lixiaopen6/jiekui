@@ -40,8 +40,9 @@
 #         else:
 #             list3 = list2
 # print(list3)
-#
-# for i in iter(int, 1):
-#     pass
-import  calendar,datetime,time
-print(time.localtime().tm_wday,datetime.datetime.now().weekday())
+from random import shuffle
+x = ['Keep', 'The', 'Blue', 'Flag', 'Flying', 'High']
+shuffle(x)
+print(x)
+
+

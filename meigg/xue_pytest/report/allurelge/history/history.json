@@ -1,0 +1,61 @@
+{
+  "068ce098bb795b53aba4a84c880419d6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "140ca283dd4b0a44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585099227127,
+        "stop" : 1585099229726,
+        "duration" : 2599
+      }
+    } ]
+  },
+  "14e2e1a16ccad0858ca2cc832d25ea30" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b678dbe32211e803",
+      "status" : "broken",
+      "statusDetails" : "StopIteration: type object 'Login' has no attribute 'password11'",
+      "time" : {
+        "start" : 1585099229734,
+        "stop" : 1585099229734,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3e78ef45f1cfcf719fa485f9d7b15a82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94782734af8fefc4",
+      "status" : "broken",
+      "statusDetails" : "StopIteration: type object 'Login' has no attribute 'password11'",
+      "time" : {
+        "start" : 1585099210948,
+        "stop" : 1585099210948,
+        "duration" : 0
+      }
+    } ]
+  }
+}

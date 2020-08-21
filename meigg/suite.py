@@ -3,7 +3,7 @@ from HTMLTestRunner_cn import HTMLTestRunner
 import datetime
 from meigg.UI.test_yongli.test_shouye import test_sss
 suite=unittest.TestSuite()
-i = datetime.datetime.now()
+i = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 report_name='小鹏的测试报告{0}'.format(i)
 report_title='小鹏的测试报告{0}'.format(i)
 report_desc='一灯老师要的，啥都有'

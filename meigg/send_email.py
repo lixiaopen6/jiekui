@@ -166,6 +166,7 @@ def maimai():
     else:
         value >= "NaN%"
     print("NAN")
+    print('..............')
 
 
 def sendemai_fujian():

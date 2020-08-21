@@ -6,7 +6,7 @@ print('根目录的conftest',11111111111)
 
 import pytest
 from selenium import  webdriver
-from POM.login import Login
+from meigg.xue_python.POM.login import Login
 from selenium.webdriver.common.by import By
 import allure
 @pytest.fixture()

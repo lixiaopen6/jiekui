@@ -16,6 +16,7 @@ class TestCase():
         res=self.s.send_request(method="post",name='login',data=test)
         assert res['httpstatus']==200
 
+
     def test02(self):
         data={}
         headers={"token":"camaxueyuan"}

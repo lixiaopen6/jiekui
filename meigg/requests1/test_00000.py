@@ -30,6 +30,7 @@ class http(unittest.TestCase):
         # r = res.json()
         # http1.Topic_id = r["topic_id"]
         self.assertTrue(res["success"])  # 判断success为True
+        self.ass
         self.jiancha({'success': True},res)
     def test002(self):  # 编辑主题
         data1 = {"accesstoken": self.accesstoken,
@@ -42,6 +43,7 @@ class http(unittest.TestCase):
         #             format(self.url + 'topics', data1, type(data1), s.status_code, s))
         # rr = s.json()
         # self.assertTrue(rr["success"])  # 判断success为True
+
         # self.assertEqual(rr["Topic_id"]),http1.Topic_id,msg='修改失败')
 
     # def test003(self):#登录
@@ -72,7 +74,6 @@ class http(unittest.TestCase):
                         aa = {}
                         aa[key] = value
                         self.jiancha(aa, value)
-
 
 if __name__ == '__main__':
     unittest.main()

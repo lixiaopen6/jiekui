@@ -1,8 +1,11 @@
 import unittest,os
 from HTMLTestRunner_cn import HTMLTestRunner
+import datetime
+
 suite=unittest.TestSuite()
-report_name='小鹏的测试报告2020-5-5'
-report_title='小鹏的测试报告2020-5-5'
+i = datetime.datetime.now()
+report_name='小鹏的测试报告{0}'.format(i)
+report_title='小鹏的测试报告{0}'.format(i)
 report_desc='一灯老师要的，啥都有'
 report_path='./report/'   #保存路径
 report_file=report_path+'report3.html'  #保存文件名称
@@ -11,7 +14,7 @@ if not os.path.exists(report_path):    #判断是否存在该文件夹
 else:
     pass
 with open(report_file, 'wb')as report:     #打开文件命名为report
-    suite.addTest(unittest.TestLoader().loadTestsFromTestCase(zye))#测试文件
+    suite.addTest(unittest.TestLoader().loadTestsFromTestCase(http))#测试文件
       #测试文件
     runner=HTMLTestRunner(stream=report,title=report_title,description=report_desc)
     runner.run(suite)

@@ -1,0 +1,8 @@
+{
+  "test_shouye.py::sssss::test_shouye": true,
+  "test_shouye.py::sssss::test_shouye_00001_url": true,
+  "test_shouye.py::sssss::test_shouye_00002_data": true,
+  "test_shouye.py::test_sss": true,
+  "test_shouye.py::test_sss::test_shouye_00003": true,
+  "test_shouye.py::test_sss::test_shouye_00004": true
+}

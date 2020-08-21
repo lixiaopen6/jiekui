@@ -1,0 +1,2 @@
+2020_06_01_19:27:09 logger ERROR 错误信息 文件loggin1.py  函数<module>  行数41
+2020_06_01_19:27:09 logger CRITICAL 严重错误信息 文件loggin1.py  函数<module>  行数42

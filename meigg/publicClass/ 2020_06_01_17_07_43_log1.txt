@@ -1,0 +1,2 @@
+2020_06_01_17:07:43 root ERROR 错误数据2 文件loggin1.py  函数<module>  行数11
+2020_06_01_17:07:43 root ERROR can only concatenate str (not "int") to str 文件loggin1.py  函数aa  行数18

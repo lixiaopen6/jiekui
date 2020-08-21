@@ -1,7 +1,7 @@
 import unittest,os
 from HTMLTestRunner_cn import HTMLTestRunner
 import datetime
-
+from meigg.UI.test_yongli.test_shouye import test_sss
 suite=unittest.TestSuite()
 i = datetime.datetime.now()
 report_name='小鹏的测试报告{0}'.format(i)
@@ -14,7 +14,7 @@ if not os.path.exists(report_path):    #判断是否存在该文件夹
 else:
     pass
 with open(report_file, 'wb')as report:     #打开文件命名为report
-    suite.addTest(unittest.TestLoader().loadTestsFromTestCase(http))#测试文件
+    suite.addTest(unittest.TestLoader().loadTestsFromTestCase(test_sss))#测试文件
       #测试文件
     runner=HTMLTestRunner(stream=report,title=report_title,description=report_desc)
     runner.run(suite)

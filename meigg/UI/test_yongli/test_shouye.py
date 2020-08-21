@@ -38,7 +38,7 @@ class test_sss(unittest.TestCase):
         self.s.send_keys1(self.password1,self.password)
         self.s.click1(self.denglu)
         # self.assertEqual()
-        self.close01()
+        self.s.close01()
 
 if __name__=='__main__':
     unittest.main()
